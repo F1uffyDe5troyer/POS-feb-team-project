@@ -1,6 +1,8 @@
 <template>
   <div class="container">
     <h1 class="title">Sign in to your account</h1>
+    <br>
+    <router-link to="/notloggedin">View Products?</router-link>
     <div class="row">
       <div class="col-lg-6 offset-lg-3 col-sm-10 offset-sm-1">
         <form

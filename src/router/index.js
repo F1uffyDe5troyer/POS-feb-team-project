@@ -33,6 +33,11 @@ const routes = [
     path: "/cart",
     name: "cart",
     component: () => import("../views/cart.vue")
+  },
+  {
+    path: "/notloggedin",
+    name: "notloggedin",
+    component: () => import("../views/notloggedin.vue")
   }
 ];
 const router = new VueRouter({

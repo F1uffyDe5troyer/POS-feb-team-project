@@ -118,8 +118,5 @@ img {
 
 .container {
   max-width: 80%;
-  margin-left: 25em;
-  align-items: start;
 }
 </style>center+
-.

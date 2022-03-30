@@ -14,7 +14,7 @@
 <li><router-link to="/userDetails">Profile</router-link>
 <ul class="submenu">
 <li><router-link to="/userDetails">Details</router-link></li>
-<li><router-link @click="logUserOut">Log-out</router-link></li>
+<li><router-link to="/login">Log-out</router-link></li>
 </ul>
 </li>
 </ul>
