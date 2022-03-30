@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="container" style="padding-top: 0">
+    <h1 class="title">Signup for an account</h1>
       <div class="row d-flex justify-content-center">
         <div class="col-5 text-left login-form-container">
           <div class="d-flex justify-content-center">
