@@ -1,8 +1,8 @@
 <template>
 <nav class='navbar navbar-inverse navbar-fixed-top sticky' role='navigation'>
 <ul class="menu cf">
-<li><a href="/">Home</a></li>
-<li><a href="/products">Products</a>
+<li><router-link to="/">Home</router-link></li>
+<li><router-link to="/products">Products</router-link>
 <ul class="submenu">
 <!-- <li><a href="">Cpu</a></li>
 <li><a href="">Gpu</a></li>
@@ -10,11 +10,11 @@
 <li><a href="">Motherboards</a></li> -->
 </ul>
 </li>
-<li><a href="/cart">Cart</a></li>
-<li><a href="/userDetails">Profile</a>
+<li><router-link to="/cart">Cart</router-link></li>
+<li><router-link to="/userDetails">Profile</router-link>
 <ul class="submenu">
-<li><a href="/userDetails">Details</a></li>
-<li><a @click="logUserOut">Log-out</a></li>
+<li><router-link to="/userDetails">Details</router-link></li>
+<li><router-link @click="logUserOut">Log-out</router-link></li>
 </ul>
 </li>
 </ul>
