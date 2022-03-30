@@ -82,7 +82,7 @@ export default {
       };
 
       console.log(person);
-      fetch("https://dalarno-capstone-final-project.herokuapp.com/users", {
+      fetch("https://new-fullstack-pos-backend-api.herokuapp.com/users", {
         method: "POST",
         body: JSON.stringify(person),
         headers: {

@@ -72,6 +72,10 @@ export default {
 </script>
 
 <style scoped>
+.container h1 {
+  text-align: center;
+}
+
 .container .title {
   text-align: center;
   margin-left: 2em;
